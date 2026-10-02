@@ -1,0 +1,6 @@
+{
+  "days": 30,
+  "protect_paths": [],
+  "db_path": "~/.local/share/opencode/opencode.db",
+  "opencode_bin": "opencode"
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=OpenCode old session cleanup (dry-run report)
+
+[Service]
+Type=oneshot
+# adjust to your clone location
+ExecStart=/usr/bin/python3 %h/<PATH-TO-REPO>/opencode_session_cleaner.py
+TimeoutStartSec=2h
+
+[Install]
+WantedBy=default.target
